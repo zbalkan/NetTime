@@ -10,6 +10,9 @@ https://sourceforge.net/projects/nettime/
 ADMX files are helpers for system administrators. Now a system administrator can manage NetTime application installed on the clients.
 
 ## TODO
+
 [x] Add ADMX file for administration 
+
 [ ] Improve help text in ADML file
+
 [ ] Refer to TODOs in the source.
