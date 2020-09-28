@@ -1,0 +1,215 @@
+<policyDefinitions revision="1.0" schemaVersion="1.0" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<policyNamespaces>
+		<target prefix="APPLICATION" namespace="MSC.Policies.FEE7751E_CF75_42AA_A164_0B21C09391FB"/>
+		<using prefix="windows" namespace="Microsoft.Policies.Windows"/>
+	</policyNamespaces>
+	<supersededAdm fileName=""/>
+	<resources minRequiredRevision="1.0" fallbackCulture="NetTime"/>
+	<categories>
+		<category name="CAT_APPLICATION" displayName="$(string.CAT_APPLICATION)" explainText="$(string.CAT_APPLICATION_HELP)"/>
+		<category name="CAT_4D777551_5292_4877_B504_11D898D44E4F" displayName="$(string.CAT_4D777551_5292_4877_B504_11D898D44E4F)" explainText="$(string.CAT_4D777551_5292_4877_B504_11D898D44E4F_HELP)">
+			<parentCategory ref="CAT_APPLICATION"/>
+		</category>
+		<category name="CAT_AA73E68F_65B5_47A7_9E90_41D53B3CEECD" displayName="$(string.CAT_AA73E68F_65B5_47A7_9E90_41D53B3CEECD)" explainText="$(string.CAT_AA73E68F_65B5_47A7_9E90_41D53B3CEECD_HELP)">
+			<parentCategory ref="CAT_4D777551_5292_4877_B504_11D898D44E4F"/>
+		</category>
+	</categories>
+	<policies>
+		<policy name="POL_C5F50518_FED7_49FE_986D_98B7636F760C" displayName="$(string.POL_C5F50518_FED7_49FE_986D_98B7636F760C)" explainText="$(string.POL_C5F50518_FED7_49FE_986D_98B7636F760C_HELP)" key="SOFTWARE\WOW6432Node\Subjective Software\NetTime" class="Machine" presentation="$(presentation.POL_C5F50518_FED7_49FE_986D_98B7636F760C)">
+			<parentCategory ref="CAT_AA73E68F_65B5_47A7_9E90_41D53B3CEECD"/>
+			<supportedOn ref="windows:SUPPORTED_WindowsVista"/>
+			<elements>
+				<decimal id="DXT_C5F50518_FED7_49FE_986D_98B7636F760C" valueName="LastUpdateCheck"/>
+			</elements>
+		</policy>
+		<policy name="POL_8D5772E2_69C8_42E1_A55E_480F5B274D59" displayName="$(string.POL_8D5772E2_69C8_42E1_A55E_480F5B274D59)" explainText="$(string.POL_8D5772E2_69C8_42E1_A55E_480F5B274D59_HELP)" key="SOFTWARE\WOW6432Node\Subjective Software\NetTime" class="Machine" presentation="$(presentation.POL_8D5772E2_69C8_42E1_A55E_480F5B274D59)">
+			<parentCategory ref="CAT_AA73E68F_65B5_47A7_9E90_41D53B3CEECD"/>
+			<supportedOn ref="windows:SUPPORTED_WindowsVista"/>
+			<elements>
+				<text id="TXT_8D5772E2_69C8_42E1_A55E_480F5B274D59" valueName="Hostname"/>
+			</elements>
+		</policy>
+		<policy name="POL_AB5E27BE_D17C_42D2_9353_88B8CA76D92B" displayName="$(string.POL_AB5E27BE_D17C_42D2_9353_88B8CA76D92B)" explainText="$(string.POL_AB5E27BE_D17C_42D2_9353_88B8CA76D92B_HELP)" key="SOFTWARE\WOW6432Node\Subjective Software\NetTime" class="Machine" presentation="$(presentation.POL_AB5E27BE_D17C_42D2_9353_88B8CA76D92B)">
+			<parentCategory ref="CAT_AA73E68F_65B5_47A7_9E90_41D53B3CEECD"/>
+			<supportedOn ref="windows:SUPPORTED_WindowsVista"/>
+			<elements>
+				<decimal id="DXT_AB5E27BE_D17C_42D2_9353_88B8CA76D92B" valueName="Protocol"/>
+			</elements>
+		</policy>
+		<policy name="POL_E7C3E648_35CC_4072_894D_E4879C5DBBC9" displayName="$(string.POL_E7C3E648_35CC_4072_894D_E4879C5DBBC9)" explainText="$(string.POL_E7C3E648_35CC_4072_894D_E4879C5DBBC9_HELP)" key="SOFTWARE\WOW6432Node\Subjective Software\NetTime" class="Machine" presentation="$(presentation.POL_E7C3E648_35CC_4072_894D_E4879C5DBBC9)">
+			<parentCategory ref="CAT_AA73E68F_65B5_47A7_9E90_41D53B3CEECD"/>
+			<supportedOn ref="windows:SUPPORTED_WindowsVista"/>
+			<elements>
+				<decimal id="DXT_E7C3E648_35CC_4072_894D_E4879C5DBBC9" valueName="Port"/>
+			</elements>
+		</policy>
+		<policy name="POL_50F43D25_16DD_40CD_8C30_27C3590C4B8C" displayName="$(string.POL_50F43D25_16DD_40CD_8C30_27C3590C4B8C)" explainText="$(string.POL_50F43D25_16DD_40CD_8C30_27C3590C4B8C_HELP)" key="SOFTWARE\WOW6432Node\Subjective Software\NetTime" class="Machine" presentation="$(presentation.POL_50F43D25_16DD_40CD_8C30_27C3590C4B8C)">
+			<parentCategory ref="CAT_AA73E68F_65B5_47A7_9E90_41D53B3CEECD"/>
+			<supportedOn ref="windows:SUPPORTED_WindowsVista"/>
+			<elements>
+				<text id="TXT_50F43D25_16DD_40CD_8C30_27C3590C4B8C" valueName="Hostname1"/>
+			</elements>
+		</policy>
+		<policy name="POL_526C64F7_9287_4A75_A78E_81A65ED22770" displayName="$(string.POL_526C64F7_9287_4A75_A78E_81A65ED22770)" explainText="$(string.POL_526C64F7_9287_4A75_A78E_81A65ED22770_HELP)" key="SOFTWARE\WOW6432Node\Subjective Software\NetTime" class="Machine" presentation="$(presentation.POL_526C64F7_9287_4A75_A78E_81A65ED22770)">
+			<parentCategory ref="CAT_AA73E68F_65B5_47A7_9E90_41D53B3CEECD"/>
+			<supportedOn ref="windows:SUPPORTED_WindowsVista"/>
+			<elements>
+				<decimal id="DXT_526C64F7_9287_4A75_A78E_81A65ED22770" valueName="Protocol1"/>
+			</elements>
+		</policy>
+		<policy name="POL_831AA70B_4503_4181_91DE_2E9982DD4DF8" displayName="$(string.POL_831AA70B_4503_4181_91DE_2E9982DD4DF8)" explainText="$(string.POL_831AA70B_4503_4181_91DE_2E9982DD4DF8_HELP)" key="SOFTWARE\WOW6432Node\Subjective Software\NetTime" class="Machine" presentation="$(presentation.POL_831AA70B_4503_4181_91DE_2E9982DD4DF8)">
+			<parentCategory ref="CAT_AA73E68F_65B5_47A7_9E90_41D53B3CEECD"/>
+			<supportedOn ref="windows:SUPPORTED_WindowsVista"/>
+			<elements>
+				<decimal id="DXT_831AA70B_4503_4181_91DE_2E9982DD4DF8" valueName="Port1"/>
+			</elements>
+		</policy>
+		<policy name="POL_445D23EA_F03F_4E23_85F7_0A3B53073573" displayName="$(string.POL_445D23EA_F03F_4E23_85F7_0A3B53073573)" explainText="$(string.POL_445D23EA_F03F_4E23_85F7_0A3B53073573_HELP)" key="SOFTWARE\WOW6432Node\Subjective Software\NetTime" class="Machine" presentation="$(presentation.POL_445D23EA_F03F_4E23_85F7_0A3B53073573)">
+			<parentCategory ref="CAT_AA73E68F_65B5_47A7_9E90_41D53B3CEECD"/>
+			<supportedOn ref="windows:SUPPORTED_WindowsVista"/>
+			<elements>
+				<text id="TXT_445D23EA_F03F_4E23_85F7_0A3B53073573" valueName="Hostname2"/>
+			</elements>
+		</policy>
+		<policy name="POL_2BA57987_4665_4564_9E43_08047F691071" displayName="$(string.POL_2BA57987_4665_4564_9E43_08047F691071)" explainText="$(string.POL_2BA57987_4665_4564_9E43_08047F691071_HELP)" key="SOFTWARE\WOW6432Node\Subjective Software\NetTime" class="Machine" presentation="$(presentation.POL_2BA57987_4665_4564_9E43_08047F691071)">
+			<parentCategory ref="CAT_AA73E68F_65B5_47A7_9E90_41D53B3CEECD"/>
+			<supportedOn ref="windows:SUPPORTED_WindowsVista"/>
+			<elements>
+				<decimal id="DXT_2BA57987_4665_4564_9E43_08047F691071" valueName="Protocol2"/>
+			</elements>
+		</policy>
+		<policy name="POL_D9279F24_58DD_4E9E_A6F1_0FC5A4F595A3" displayName="$(string.POL_D9279F24_58DD_4E9E_A6F1_0FC5A4F595A3)" explainText="$(string.POL_D9279F24_58DD_4E9E_A6F1_0FC5A4F595A3_HELP)" key="SOFTWARE\WOW6432Node\Subjective Software\NetTime" class="Machine" presentation="$(presentation.POL_D9279F24_58DD_4E9E_A6F1_0FC5A4F595A3)">
+			<parentCategory ref="CAT_AA73E68F_65B5_47A7_9E90_41D53B3CEECD"/>
+			<supportedOn ref="windows:SUPPORTED_WindowsVista"/>
+			<elements>
+				<decimal id="DXT_D9279F24_58DD_4E9E_A6F1_0FC5A4F595A3" valueName="Port2"/>
+			</elements>
+		</policy>
+		<policy name="POL_CCD22FE5_9CB0_4DB3_AEAC_24466BEE077C" displayName="$(string.POL_CCD22FE5_9CB0_4DB3_AEAC_24466BEE077C)" explainText="$(string.POL_CCD22FE5_9CB0_4DB3_AEAC_24466BEE077C_HELP)" key="SOFTWARE\WOW6432Node\Subjective Software\NetTime" class="Machine" presentation="$(presentation.POL_CCD22FE5_9CB0_4DB3_AEAC_24466BEE077C)">
+			<parentCategory ref="CAT_AA73E68F_65B5_47A7_9E90_41D53B3CEECD"/>
+			<supportedOn ref="windows:SUPPORTED_WindowsVista"/>
+			<elements>
+				<text id="TXT_CCD22FE5_9CB0_4DB3_AEAC_24466BEE077C" valueName="Hostname3"/>
+			</elements>
+		</policy>
+		<policy name="POL_ADDB3614_AF15_4941_A157_886A2B8CA27E" displayName="$(string.POL_ADDB3614_AF15_4941_A157_886A2B8CA27E)" explainText="$(string.POL_ADDB3614_AF15_4941_A157_886A2B8CA27E_HELP)" key="SOFTWARE\WOW6432Node\Subjective Software\NetTime" class="Machine" presentation="$(presentation.POL_ADDB3614_AF15_4941_A157_886A2B8CA27E)">
+			<parentCategory ref="CAT_AA73E68F_65B5_47A7_9E90_41D53B3CEECD"/>
+			<supportedOn ref="windows:SUPPORTED_WindowsVista"/>
+			<elements>
+				<decimal id="DXT_ADDB3614_AF15_4941_A157_886A2B8CA27E" valueName="Protocol3"/>
+			</elements>
+		</policy>
+		<policy name="POL_5FB6B7CF_1FDF_459F_902F_DD34FE66E745" displayName="$(string.POL_5FB6B7CF_1FDF_459F_902F_DD34FE66E745)" explainText="$(string.POL_5FB6B7CF_1FDF_459F_902F_DD34FE66E745_HELP)" key="SOFTWARE\WOW6432Node\Subjective Software\NetTime" class="Machine" presentation="$(presentation.POL_5FB6B7CF_1FDF_459F_902F_DD34FE66E745)">
+			<parentCategory ref="CAT_AA73E68F_65B5_47A7_9E90_41D53B3CEECD"/>
+			<supportedOn ref="windows:SUPPORTED_WindowsVista"/>
+			<elements>
+				<decimal id="DXT_5FB6B7CF_1FDF_459F_902F_DD34FE66E745" valueName="Port3"/>
+			</elements>
+		</policy>
+		<policy name="POL_AE4F18D7_7619_4C8C_9B6F_0D03AE597499" displayName="$(string.POL_AE4F18D7_7619_4C8C_9B6F_0D03AE597499)" explainText="$(string.POL_AE4F18D7_7619_4C8C_9B6F_0D03AE597499_HELP)" key="SOFTWARE\WOW6432Node\Subjective Software\NetTime" class="Machine" presentation="$(presentation.POL_AE4F18D7_7619_4C8C_9B6F_0D03AE597499)">
+			<parentCategory ref="CAT_AA73E68F_65B5_47A7_9E90_41D53B3CEECD"/>
+			<supportedOn ref="windows:SUPPORTED_WindowsVista"/>
+			<elements>
+				<decimal id="DXT_AE4F18D7_7619_4C8C_9B6F_0D03AE597499" valueName="SyncFreq"/>
+			</elements>
+		</policy>
+		<policy name="POL_C816B57A_A1AF_4D8D_BB14_7B8ED2154960" displayName="$(string.POL_C816B57A_A1AF_4D8D_BB14_7B8ED2154960)" explainText="$(string.POL_C816B57A_A1AF_4D8D_BB14_7B8ED2154960_HELP)" key="SOFTWARE\WOW6432Node\Subjective Software\NetTime" class="Machine" presentation="$(presentation.POL_C816B57A_A1AF_4D8D_BB14_7B8ED2154960)">
+			<parentCategory ref="CAT_AA73E68F_65B5_47A7_9E90_41D53B3CEECD"/>
+			<supportedOn ref="windows:SUPPORTED_WindowsVista"/>
+			<elements>
+				<decimal id="DXT_C816B57A_A1AF_4D8D_BB14_7B8ED2154960" valueName="SyncFreqUnits"/>
+			</elements>
+		</policy>
+		<policy name="POL_890865C0_8E75_4179_9B10_C6BAE4F448C6" displayName="$(string.POL_890865C0_8E75_4179_9B10_C6BAE4F448C6)" explainText="$(string.POL_890865C0_8E75_4179_9B10_C6BAE4F448C6_HELP)" key="SOFTWARE\WOW6432Node\Subjective Software\NetTime" class="Machine" presentation="$(presentation.POL_890865C0_8E75_4179_9B10_C6BAE4F448C6)">
+			<parentCategory ref="CAT_AA73E68F_65B5_47A7_9E90_41D53B3CEECD"/>
+			<supportedOn ref="windows:SUPPORTED_WindowsVista"/>
+			<elements>
+				<decimal id="DXT_890865C0_8E75_4179_9B10_C6BAE4F448C6" valueName="LostSync"/>
+			</elements>
+		</policy>
+		<policy name="POL_60221F15_900B_46A0_A416_F3A8999D2F28" displayName="$(string.POL_60221F15_900B_46A0_A416_F3A8999D2F28)" explainText="$(string.POL_60221F15_900B_46A0_A416_F3A8999D2F28_HELP)" key="SOFTWARE\WOW6432Node\Subjective Software\NetTime" class="Machine" presentation="$(presentation.POL_60221F15_900B_46A0_A416_F3A8999D2F28)">
+			<parentCategory ref="CAT_AA73E68F_65B5_47A7_9E90_41D53B3CEECD"/>
+			<supportedOn ref="windows:SUPPORTED_WindowsVista"/>
+			<elements>
+				<decimal id="DXT_60221F15_900B_46A0_A416_F3A8999D2F28" valueName="LostSyncUnits"/>
+			</elements>
+		</policy>
+		<policy name="POL_75F97FE5_886D_47F0_9854_4C96E9023A7F" displayName="$(string.POL_75F97FE5_886D_47F0_9854_4C96E9023A7F)" explainText="$(string.POL_75F97FE5_886D_47F0_9854_4C96E9023A7F_HELP)" key="SOFTWARE\WOW6432Node\Subjective Software\NetTime" class="Machine" presentation="$(presentation.POL_75F97FE5_886D_47F0_9854_4C96E9023A7F)">
+			<parentCategory ref="CAT_AA73E68F_65B5_47A7_9E90_41D53B3CEECD"/>
+			<supportedOn ref="windows:SUPPORTED_WindowsVista"/>
+			<elements>
+				<decimal id="DXT_75F97FE5_886D_47F0_9854_4C96E9023A7F" valueName="LargeAdjustmentThreshold"/>
+			</elements>
+		</policy>
+		<policy name="POL_E166557D_D853_4500_88C4_59210F53C499" displayName="$(string.POL_E166557D_D853_4500_88C4_59210F53C499)" explainText="$(string.POL_E166557D_D853_4500_88C4_59210F53C499_HELP)" key="SOFTWARE\WOW6432Node\Subjective Software\NetTime" class="Machine" presentation="$(presentation.POL_E166557D_D853_4500_88C4_59210F53C499)">
+			<parentCategory ref="CAT_AA73E68F_65B5_47A7_9E90_41D53B3CEECD"/>
+			<supportedOn ref="windows:SUPPORTED_WindowsVista"/>
+			<elements>
+				<decimal id="DXT_E166557D_D853_4500_88C4_59210F53C499" valueName="LargeAdjustmentThresholdUnits"/>
+			</elements>
+		</policy>
+		<policy name="POL_8877ED1D_2534_4C49_AA6C_D23F7A1A70C6" displayName="$(string.POL_8877ED1D_2534_4C49_AA6C_D23F7A1A70C6)" explainText="$(string.POL_8877ED1D_2534_4C49_AA6C_D23F7A1A70C6_HELP)" key="SOFTWARE\WOW6432Node\Subjective Software\NetTime" class="Machine" presentation="$(presentation.POL_8877ED1D_2534_4C49_AA6C_D23F7A1A70C6)">
+			<parentCategory ref="CAT_AA73E68F_65B5_47A7_9E90_41D53B3CEECD"/>
+			<supportedOn ref="windows:SUPPORTED_WindowsVista"/>
+			<elements>
+				<decimal id="DXT_8877ED1D_2534_4C49_AA6C_D23F7A1A70C6" valueName="LargeAdjustmentAction"/>
+			</elements>
+		</policy>
+		<policy name="POL_FD0DB021_B228_4871_B5F0_D888EAB9F9B7" displayName="$(string.POL_FD0DB021_B228_4871_B5F0_D888EAB9F9B7)" explainText="$(string.POL_FD0DB021_B228_4871_B5F0_D888EAB9F9B7_HELP)" key="SOFTWARE\WOW6432Node\Subjective Software\NetTime" class="Machine" presentation="$(presentation.POL_FD0DB021_B228_4871_B5F0_D888EAB9F9B7)">
+			<parentCategory ref="CAT_AA73E68F_65B5_47A7_9E90_41D53B3CEECD"/>
+			<supportedOn ref="windows:SUPPORTED_WindowsVista"/>
+			<elements>
+				<decimal id="DXT_FD0DB021_B228_4871_B5F0_D888EAB9F9B7" valueName="Retry"/>
+			</elements>
+		</policy>
+		<policy name="POL_D4DE2D8F_863C_4CCD_817F_D01B3E395B3B" displayName="$(string.POL_D4DE2D8F_863C_4CCD_817F_D01B3E395B3B)" explainText="$(string.POL_D4DE2D8F_863C_4CCD_817F_D01B3E395B3B_HELP)" key="SOFTWARE\WOW6432Node\Subjective Software\NetTime" class="Machine" presentation="$(presentation.POL_D4DE2D8F_863C_4CCD_817F_D01B3E395B3B)">
+			<parentCategory ref="CAT_AA73E68F_65B5_47A7_9E90_41D53B3CEECD"/>
+			<supportedOn ref="windows:SUPPORTED_WindowsVista"/>
+			<elements>
+				<decimal id="DXT_D4DE2D8F_863C_4CCD_817F_D01B3E395B3B" valueName="RetryUnits"/>
+			</elements>
+		</policy>
+		<policy name="POL_DF74235E_A48F_40A1_A02A_82290CB046DC" displayName="$(string.POL_DF74235E_A48F_40A1_A02A_82290CB046DC)" explainText="$(string.POL_DF74235E_A48F_40A1_A02A_82290CB046DC_HELP)" key="SOFTWARE\WOW6432Node\Subjective Software\NetTime" class="Machine" presentation="$(presentation.POL_DF74235E_A48F_40A1_A02A_82290CB046DC)">
+			<parentCategory ref="CAT_AA73E68F_65B5_47A7_9E90_41D53B3CEECD"/>
+			<supportedOn ref="windows:SUPPORTED_WindowsVista"/>
+			<elements>
+				<decimal id="DXT_DF74235E_A48F_40A1_A02A_82290CB046DC" valueName="Server"/>
+			</elements>
+		</policy>
+		<policy name="POL_F5AA44DC_5AE2_4E3E_8FD1_015CCA8E1690" displayName="$(string.POL_F5AA44DC_5AE2_4E3E_8FD1_015CCA8E1690)" explainText="$(string.POL_F5AA44DC_5AE2_4E3E_8FD1_015CCA8E1690_HELP)" key="SOFTWARE\WOW6432Node\Subjective Software\NetTime" class="Machine" presentation="$(presentation.POL_F5AA44DC_5AE2_4E3E_8FD1_015CCA8E1690)">
+			<parentCategory ref="CAT_AA73E68F_65B5_47A7_9E90_41D53B3CEECD"/>
+			<supportedOn ref="windows:SUPPORTED_WindowsVista"/>
+			<elements>
+				<decimal id="DXT_F5AA44DC_5AE2_4E3E_8FD1_015CCA8E1690" valueName="AlwaysProvideTime"/>
+			</elements>
+		</policy>
+		<policy name="POL_FC5D3E05_A6C4_4810_901F_74BB8D956078" displayName="$(string.POL_FC5D3E05_A6C4_4810_901F_74BB8D956078)" explainText="$(string.POL_FC5D3E05_A6C4_4810_901F_74BB8D956078_HELP)" key="SOFTWARE\WOW6432Node\Subjective Software\NetTime" class="Machine" presentation="$(presentation.POL_FC5D3E05_A6C4_4810_901F_74BB8D956078)">
+			<parentCategory ref="CAT_AA73E68F_65B5_47A7_9E90_41D53B3CEECD"/>
+			<supportedOn ref="windows:SUPPORTED_WindowsVista"/>
+			<elements>
+				<decimal id="DXT_FC5D3E05_A6C4_4810_901F_74BB8D956078" valueName="DemoteOnErrorCount"/>
+			</elements>
+		</policy>
+		<policy name="POL_9F338D1E_A809_417D_A4D9_BB04542946D5" displayName="$(string.POL_9F338D1E_A809_417D_A4D9_BB04542946D5)" explainText="$(string.POL_9F338D1E_A809_417D_A4D9_BB04542946D5_HELP)" key="SOFTWARE\WOW6432Node\Subjective Software\NetTime" class="Machine" presentation="$(presentation.POL_9F338D1E_A809_417D_A4D9_BB04542946D5)">
+			<parentCategory ref="CAT_AA73E68F_65B5_47A7_9E90_41D53B3CEECD"/>
+			<supportedOn ref="windows:SUPPORTED_WindowsVista"/>
+			<elements>
+				<decimal id="DXT_9F338D1E_A809_417D_A4D9_BB04542946D5" valueName="LogLevel"/>
+			</elements>
+		</policy>
+		<policy name="POL_6EC72234_C4DF_40B3_8E92_C67840B878BD" displayName="$(string.POL_6EC72234_C4DF_40B3_8E92_C67840B878BD)" explainText="$(string.POL_6EC72234_C4DF_40B3_8E92_C67840B878BD_HELP)" key="SOFTWARE\WOW6432Node\Subjective Software\NetTime" class="Machine" presentation="$(presentation.POL_6EC72234_C4DF_40B3_8E92_C67840B878BD)">
+			<parentCategory ref="CAT_AA73E68F_65B5_47A7_9E90_41D53B3CEECD"/>
+			<supportedOn ref="windows:SUPPORTED_WindowsVista"/>
+			<elements>
+				<decimal id="DXT_6EC72234_C4DF_40B3_8E92_C67840B878BD" valueName="AutomaticUpdateChecks"/>
+			</elements>
+		</policy>
+		<policy name="POL_B968F36F_FADD_4F32_8474_ED178F7C0481" displayName="$(string.POL_B968F36F_FADD_4F32_8474_ED178F7C0481)" explainText="$(string.POL_B968F36F_FADD_4F32_8474_ED178F7C0481_HELP)" key="SOFTWARE\WOW6432Node\Subjective Software\NetTime" class="Machine" presentation="$(presentation.POL_B968F36F_FADD_4F32_8474_ED178F7C0481)">
+			<parentCategory ref="CAT_AA73E68F_65B5_47A7_9E90_41D53B3CEECD"/>
+			<supportedOn ref="windows:SUPPORTED_WindowsVista"/>
+			<elements>
+				<decimal id="DXT_B968F36F_FADD_4F32_8474_ED178F7C0481" valueName="DaysBetweenUpdateChecks"/>
+			</elements>
+		</policy>
+	</policies>
+</policyDefinitions>

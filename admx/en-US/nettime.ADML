@@ -1,0 +1,169 @@
+<?xml version="1.0"?>
+<policyDefinitionResources revision="1.0" schemaVersion="1.0" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<displayName>NetTime</displayName>
+	<description>NetTime is a Simple Network Time Protocol (SNTP) client for Windows 95/98/Me/NT/2000/XP/Vista/7/8/10 and Server 2003/2008/2012/2016. (32 bit and 64 bit operating systems are both supported)</description>
+	<resources>
+		<stringTable>
+			<string id="CAT_APPLICATION">NetTime</string>
+			<string id="CAT_APPLICATION_HELP">This Category configures the Values located under the [NetTime] Key.</string>
+			<string id="CAT_4D777551_5292_4877_B504_11D898D44E4F">Subjective Software</string>
+			<string id="CAT_4D777551_5292_4877_B504_11D898D44E4F_HELP">This Category configures the Values located under the [HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Subjective Software] Key.</string>
+			<string id="CAT_AA73E68F_65B5_47A7_9E90_41D53B3CEECD">NetTime</string>
+			<string id="CAT_AA73E68F_65B5_47A7_9E90_41D53B3CEECD_HELP">This Category configures the Values located under the [HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Subjective Software\NetTime] Key.</string>
+			<string id="POL_C5F50518_FED7_49FE_986D_98B7636F760C">LastUpdateCheck</string>
+			<string id="POL_C5F50518_FED7_49FE_986D_98B7636F760C_HELP">This Policy configures the Value [LastUpdateCheck] located under the [SOFTWARE\WOW6432Node\Subjective Software\NetTime] Key. By default, this setting was defined as [dword] and had the value [5f67b146] assigned.</string>
+			<string id="POL_8D5772E2_69C8_42E1_A55E_480F5B274D59">Hostname</string>
+			<string id="POL_8D5772E2_69C8_42E1_A55E_480F5B274D59_HELP">This Policy configures the Value [Hostname] located under the [SOFTWARE\WOW6432Node\Subjective Software\NetTime] Key. By default, this setting was defined as [string] and had the value [0.nettime.pool.ntp.org] assigned.</string>
+			<string id="POL_AB5E27BE_D17C_42D2_9353_88B8CA76D92B">Protocol</string>
+			<string id="POL_AB5E27BE_D17C_42D2_9353_88B8CA76D92B_HELP">This Policy configures the Value [Protocol] located under the [SOFTWARE\WOW6432Node\Subjective Software\NetTime] Key. By default, this setting was defined as [dword] and had the value [00000000] assigned.</string>
+			<string id="POL_E7C3E648_35CC_4072_894D_E4879C5DBBC9">Port</string>
+			<string id="POL_E7C3E648_35CC_4072_894D_E4879C5DBBC9_HELP">This Policy configures the Value [Port] located under the [SOFTWARE\WOW6432Node\Subjective Software\NetTime] Key. By default, this setting was defined as [dword] and had the value [0000007b] assigned.</string>
+			<string id="POL_50F43D25_16DD_40CD_8C30_27C3590C4B8C">Hostname1</string>
+			<string id="POL_50F43D25_16DD_40CD_8C30_27C3590C4B8C_HELP">This Policy configures the Value [Hostname1] located under the [SOFTWARE\WOW6432Node\Subjective Software\NetTime] Key. By default, this setting was defined as [string] and had the value [1.nettime.pool.ntp.org] assigned.</string>
+			<string id="POL_526C64F7_9287_4A75_A78E_81A65ED22770">Protocol1</string>
+			<string id="POL_526C64F7_9287_4A75_A78E_81A65ED22770_HELP">This Policy configures the Value [Protocol1] located under the [SOFTWARE\WOW6432Node\Subjective Software\NetTime] Key. By default, this setting was defined as [dword] and had the value [00000000] assigned.</string>
+			<string id="POL_831AA70B_4503_4181_91DE_2E9982DD4DF8">Port1</string>
+			<string id="POL_831AA70B_4503_4181_91DE_2E9982DD4DF8_HELP">This Policy configures the Value [Port1] located under the [SOFTWARE\WOW6432Node\Subjective Software\NetTime] Key. By default, this setting was defined as [dword] and had the value [0000007b] assigned.</string>
+			<string id="POL_445D23EA_F03F_4E23_85F7_0A3B53073573">Hostname2</string>
+			<string id="POL_445D23EA_F03F_4E23_85F7_0A3B53073573_HELP">This Policy configures the Value [Hostname2] located under the [SOFTWARE\WOW6432Node\Subjective Software\NetTime] Key. By default, this setting was defined as [string] and had the value [2.nettime.pool.ntp.org] assigned.</string>
+			<string id="POL_2BA57987_4665_4564_9E43_08047F691071">Protocol2</string>
+			<string id="POL_2BA57987_4665_4564_9E43_08047F691071_HELP">This Policy configures the Value [Protocol2] located under the [SOFTWARE\WOW6432Node\Subjective Software\NetTime] Key. By default, this setting was defined as [dword] and had the value [00000000] assigned.</string>
+			<string id="POL_D9279F24_58DD_4E9E_A6F1_0FC5A4F595A3">Port2</string>
+			<string id="POL_D9279F24_58DD_4E9E_A6F1_0FC5A4F595A3_HELP">This Policy configures the Value [Port2] located under the [SOFTWARE\WOW6432Node\Subjective Software\NetTime] Key. By default, this setting was defined as [dword] and had the value [0000007b] assigned.</string>
+			<string id="POL_CCD22FE5_9CB0_4DB3_AEAC_24466BEE077C">Hostname3</string>
+			<string id="POL_CCD22FE5_9CB0_4DB3_AEAC_24466BEE077C_HELP">This Policy configures the Value [Hostname3] located under the [SOFTWARE\WOW6432Node\Subjective Software\NetTime] Key. By default, this setting was defined as [string] and had the value [3.nettime.pool.ntp.org] assigned.</string>
+			<string id="POL_ADDB3614_AF15_4941_A157_886A2B8CA27E">Protocol3</string>
+			<string id="POL_ADDB3614_AF15_4941_A157_886A2B8CA27E_HELP">This Policy configures the Value [Protocol3] located under the [SOFTWARE\WOW6432Node\Subjective Software\NetTime] Key. By default, this setting was defined as [dword] and had the value [00000000] assigned.</string>
+			<string id="POL_5FB6B7CF_1FDF_459F_902F_DD34FE66E745">Port3</string>
+			<string id="POL_5FB6B7CF_1FDF_459F_902F_DD34FE66E745_HELP">This Policy configures the Value [Port3] located under the [SOFTWARE\WOW6432Node\Subjective Software\NetTime] Key. By default, this setting was defined as [dword] and had the value [0000007b] assigned.</string>
+			<string id="POL_AE4F18D7_7619_4C8C_9B6F_0D03AE597499">SyncFreq</string>
+			<string id="POL_AE4F18D7_7619_4C8C_9B6F_0D03AE597499_HELP">This Policy configures the Value [SyncFreq] located under the [SOFTWARE\WOW6432Node\Subjective Software\NetTime] Key. By default, this setting was defined as [dword] and had the value [0000000c] assigned.</string>
+			<string id="POL_C816B57A_A1AF_4D8D_BB14_7B8ED2154960">SyncFreqUnits</string>
+			<string id="POL_C816B57A_A1AF_4D8D_BB14_7B8ED2154960_HELP">This Policy configures the Value [SyncFreqUnits] located under the [SOFTWARE\WOW6432Node\Subjective Software\NetTime] Key. By default, this setting was defined as [dword] and had the value [00000003] assigned.</string>
+			<string id="POL_890865C0_8E75_4179_9B10_C6BAE4F448C6">LostSync</string>
+			<string id="POL_890865C0_8E75_4179_9B10_C6BAE4F448C6_HELP">This Policy configures the Value [LostSync] located under the [SOFTWARE\WOW6432Node\Subjective Software\NetTime] Key. By default, this setting was defined as [dword] and had the value [00000018] assigned.</string>
+			<string id="POL_60221F15_900B_46A0_A416_F3A8999D2F28">LostSyncUnits</string>
+			<string id="POL_60221F15_900B_46A0_A416_F3A8999D2F28_HELP">This Policy configures the Value [LostSyncUnits] located under the [SOFTWARE\WOW6432Node\Subjective Software\NetTime] Key. By default, this setting was defined as [dword] and had the value [00000003] assigned.</string>
+			<string id="POL_75F97FE5_886D_47F0_9854_4C96E9023A7F">LargeAdjustmentThreshold</string>
+			<string id="POL_75F97FE5_886D_47F0_9854_4C96E9023A7F_HELP">This Policy configures the Value [LargeAdjustmentThreshold] located under the [SOFTWARE\WOW6432Node\Subjective Software\NetTime] Key. By default, this setting was defined as [dword] and had the value [00000001] assigned.</string>
+			<string id="POL_E166557D_D853_4500_88C4_59210F53C499">LargeAdjustmentThresholdUnits</string>
+			<string id="POL_E166557D_D853_4500_88C4_59210F53C499_HELP">This Policy configures the Value [LargeAdjustmentThresholdUnits] located under the [SOFTWARE\WOW6432Node\Subjective Software\NetTime] Key. By default, this setting was defined as [dword] and had the value [00000001] assigned.</string>
+			<string id="POL_8877ED1D_2534_4C49_AA6C_D23F7A1A70C6">LargeAdjustmentAction</string>
+			<string id="POL_8877ED1D_2534_4C49_AA6C_D23F7A1A70C6_HELP">This Policy configures the Value [LargeAdjustmentAction] located under the [SOFTWARE\WOW6432Node\Subjective Software\NetTime] Key. By default, this setting was defined as [dword] and had the value [00000000] assigned.</string>
+			<string id="POL_FD0DB021_B228_4871_B5F0_D888EAB9F9B7">Retry</string>
+			<string id="POL_FD0DB021_B228_4871_B5F0_D888EAB9F9B7_HELP">This Policy configures the Value [Retry] located under the [SOFTWARE\WOW6432Node\Subjective Software\NetTime] Key. By default, this setting was defined as [dword] and had the value [00000001] assigned.</string>
+			<string id="POL_D4DE2D8F_863C_4CCD_817F_D01B3E395B3B">RetryUnits</string>
+			<string id="POL_D4DE2D8F_863C_4CCD_817F_D01B3E395B3B_HELP">This Policy configures the Value [RetryUnits] located under the [SOFTWARE\WOW6432Node\Subjective Software\NetTime] Key. By default, this setting was defined as [dword] and had the value [00000002] assigned.</string>
+			<string id="POL_DF74235E_A48F_40A1_A02A_82290CB046DC">Server</string>
+			<string id="POL_DF74235E_A48F_40A1_A02A_82290CB046DC_HELP">This Policy configures the Value [Server] located under the [SOFTWARE\WOW6432Node\Subjective Software\NetTime] Key. By default, this setting was defined as [dword] and had the value [00000000] assigned.</string>
+			<string id="POL_F5AA44DC_5AE2_4E3E_8FD1_015CCA8E1690">AlwaysProvideTime</string>
+			<string id="POL_F5AA44DC_5AE2_4E3E_8FD1_015CCA8E1690_HELP">This Policy configures the Value [AlwaysProvideTime] located under the [SOFTWARE\WOW6432Node\Subjective Software\NetTime] Key. By default, this setting was defined as [dword] and had the value [00000000] assigned.</string>
+			<string id="POL_FC5D3E05_A6C4_4810_901F_74BB8D956078">DemoteOnErrorCount</string>
+			<string id="POL_FC5D3E05_A6C4_4810_901F_74BB8D956078_HELP">This Policy configures the Value [DemoteOnErrorCount] located under the [SOFTWARE\WOW6432Node\Subjective Software\NetTime] Key. By default, this setting was defined as [dword] and had the value [00000004] assigned.</string>
+			<string id="POL_9F338D1E_A809_417D_A4D9_BB04542946D5">LogLevel</string>
+			<string id="POL_9F338D1E_A809_417D_A4D9_BB04542946D5_HELP">This Policy configures the Value [LogLevel] located under the [SOFTWARE\WOW6432Node\Subjective Software\NetTime] Key. By default, this setting was defined as [dword] and had the value [00000001] assigned.</string>
+			<string id="POL_6EC72234_C4DF_40B3_8E92_C67840B878BD">AutomaticUpdateChecks</string>
+			<string id="POL_6EC72234_C4DF_40B3_8E92_C67840B878BD_HELP">This Policy configures the Value [AutomaticUpdateChecks] located under the [SOFTWARE\WOW6432Node\Subjective Software\NetTime] Key. By default, this setting was defined as [dword] and had the value [00000000] assigned.</string>
+			<string id="POL_B968F36F_FADD_4F32_8474_ED178F7C0481">DaysBetweenUpdateChecks</string>
+			<string id="POL_B968F36F_FADD_4F32_8474_ED178F7C0481_HELP">This Policy configures the Value [DaysBetweenUpdateChecks] located under the [SOFTWARE\WOW6432Node\Subjective Software\NetTime] Key. By default, this setting was defined as [dword] and had the value [00000007] assigned.</string>
+		</stringTable>
+		<presentationTable>
+			<presentation id="POL_C5F50518_FED7_49FE_986D_98B7636F760C">
+				<decimalTextBox refId="DXT_C5F50518_FED7_49FE_986D_98B7636F760C"/>
+			</presentation>
+			<presentation id="POL_8D5772E2_69C8_42E1_A55E_480F5B274D59">
+				<textBox refId="TXT_8D5772E2_69C8_42E1_A55E_480F5B274D59">
+					<label>Hostname</label>
+					<defaultValue>0.nettime.pool.ntp.org</defaultValue>
+				</textBox>
+			</presentation>
+			<presentation id="POL_AB5E27BE_D17C_42D2_9353_88B8CA76D92B">
+				<decimalTextBox refId="DXT_AB5E27BE_D17C_42D2_9353_88B8CA76D92B"/>
+			</presentation>
+			<presentation id="POL_E7C3E648_35CC_4072_894D_E4879C5DBBC9">
+				<decimalTextBox refId="DXT_E7C3E648_35CC_4072_894D_E4879C5DBBC9"/>
+			</presentation>
+			<presentation id="POL_50F43D25_16DD_40CD_8C30_27C3590C4B8C">
+				<textBox refId="TXT_50F43D25_16DD_40CD_8C30_27C3590C4B8C">
+					<label>Hostname1</label>
+					<defaultValue>1.nettime.pool.ntp.org</defaultValue>
+				</textBox>
+			</presentation>
+			<presentation id="POL_526C64F7_9287_4A75_A78E_81A65ED22770">
+				<decimalTextBox refId="DXT_526C64F7_9287_4A75_A78E_81A65ED22770"/>
+			</presentation>
+			<presentation id="POL_831AA70B_4503_4181_91DE_2E9982DD4DF8">
+				<decimalTextBox refId="DXT_831AA70B_4503_4181_91DE_2E9982DD4DF8"/>
+			</presentation>
+			<presentation id="POL_445D23EA_F03F_4E23_85F7_0A3B53073573">
+				<textBox refId="TXT_445D23EA_F03F_4E23_85F7_0A3B53073573">
+					<label>Hostname2</label>
+					<defaultValue>2.nettime.pool.ntp.org</defaultValue>
+				</textBox>
+			</presentation>
+			<presentation id="POL_2BA57987_4665_4564_9E43_08047F691071">
+				<decimalTextBox refId="DXT_2BA57987_4665_4564_9E43_08047F691071"/>
+			</presentation>
+			<presentation id="POL_D9279F24_58DD_4E9E_A6F1_0FC5A4F595A3">
+				<decimalTextBox refId="DXT_D9279F24_58DD_4E9E_A6F1_0FC5A4F595A3"/>
+			</presentation>
+			<presentation id="POL_CCD22FE5_9CB0_4DB3_AEAC_24466BEE077C">
+				<textBox refId="TXT_CCD22FE5_9CB0_4DB3_AEAC_24466BEE077C">
+					<label>Hostname3</label>
+					<defaultValue>3.nettime.pool.ntp.org</defaultValue>
+				</textBox>
+			</presentation>
+			<presentation id="POL_ADDB3614_AF15_4941_A157_886A2B8CA27E">
+				<decimalTextBox refId="DXT_ADDB3614_AF15_4941_A157_886A2B8CA27E"/>
+			</presentation>
+			<presentation id="POL_5FB6B7CF_1FDF_459F_902F_DD34FE66E745">
+				<decimalTextBox refId="DXT_5FB6B7CF_1FDF_459F_902F_DD34FE66E745"/>
+			</presentation>
+			<presentation id="POL_AE4F18D7_7619_4C8C_9B6F_0D03AE597499">
+				<decimalTextBox refId="DXT_AE4F18D7_7619_4C8C_9B6F_0D03AE597499"/>
+			</presentation>
+			<presentation id="POL_C816B57A_A1AF_4D8D_BB14_7B8ED2154960">
+				<decimalTextBox refId="DXT_C816B57A_A1AF_4D8D_BB14_7B8ED2154960"/>
+			</presentation>
+			<presentation id="POL_890865C0_8E75_4179_9B10_C6BAE4F448C6">
+				<decimalTextBox refId="DXT_890865C0_8E75_4179_9B10_C6BAE4F448C6"/>
+			</presentation>
+			<presentation id="POL_60221F15_900B_46A0_A416_F3A8999D2F28">
+				<decimalTextBox refId="DXT_60221F15_900B_46A0_A416_F3A8999D2F28"/>
+			</presentation>
+			<presentation id="POL_75F97FE5_886D_47F0_9854_4C96E9023A7F">
+				<decimalTextBox refId="DXT_75F97FE5_886D_47F0_9854_4C96E9023A7F"/>
+			</presentation>
+			<presentation id="POL_E166557D_D853_4500_88C4_59210F53C499">
+				<decimalTextBox refId="DXT_E166557D_D853_4500_88C4_59210F53C499"/>
+			</presentation>
+			<presentation id="POL_8877ED1D_2534_4C49_AA6C_D23F7A1A70C6">
+				<decimalTextBox refId="DXT_8877ED1D_2534_4C49_AA6C_D23F7A1A70C6"/>
+			</presentation>
+			<presentation id="POL_FD0DB021_B228_4871_B5F0_D888EAB9F9B7">
+				<decimalTextBox refId="DXT_FD0DB021_B228_4871_B5F0_D888EAB9F9B7"/>
+			</presentation>
+			<presentation id="POL_D4DE2D8F_863C_4CCD_817F_D01B3E395B3B">
+				<decimalTextBox refId="DXT_D4DE2D8F_863C_4CCD_817F_D01B3E395B3B"/>
+			</presentation>
+			<presentation id="POL_DF74235E_A48F_40A1_A02A_82290CB046DC">
+				<decimalTextBox refId="DXT_DF74235E_A48F_40A1_A02A_82290CB046DC"/>
+			</presentation>
+			<presentation id="POL_F5AA44DC_5AE2_4E3E_8FD1_015CCA8E1690">
+				<decimalTextBox refId="DXT_F5AA44DC_5AE2_4E3E_8FD1_015CCA8E1690"/>
+			</presentation>
+			<presentation id="POL_FC5D3E05_A6C4_4810_901F_74BB8D956078">
+				<decimalTextBox refId="DXT_FC5D3E05_A6C4_4810_901F_74BB8D956078"/>
+			</presentation>
+			<presentation id="POL_9F338D1E_A809_417D_A4D9_BB04542946D5">
+				<decimalTextBox refId="DXT_9F338D1E_A809_417D_A4D9_BB04542946D5"/>
+			</presentation>
+			<presentation id="POL_6EC72234_C4DF_40B3_8E92_C67840B878BD">
+				<decimalTextBox refId="DXT_6EC72234_C4DF_40B3_8E92_C67840B878BD"/>
+			</presentation>
+			<presentation id="POL_B968F36F_FADD_4F32_8474_ED178F7C0481">
+				<decimalTextBox refId="DXT_B968F36F_FADD_4F32_8474_ED178F7C0481"/>
+			</presentation>
+		</presentationTable>
+	</resources>
+</policyDefinitionResources>
