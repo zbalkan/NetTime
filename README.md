@@ -1,5 +1,6 @@
 # NetTime
-Unofficial mirror of NetTime
+Unofficial mirror of Nettime. 
+Includes generated ADMX file for enterprise deployment.
 
 ## Introduction
 NetTime is a Simple Network Time Protocol (SNTP) client for Windows 95/98/Me/NT/2000/XP/Vista/7/8/10 and Server 2003/2008/2012/2016. (32 bit and 64 bit operating systems are both supported)
